@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "APBabyPlayer"
-  s.version           = '0.1.0'
+  s.version           = '6.0.0'
   s.summary          = "APBabyPlayer"
   s.description      = <<-DESC
                         APBabyPlayer container.
@@ -22,10 +22,10 @@ Pod::Spec.new do |s|
   s.source_files = 'APBaby/**/*.{h,m,swift}'
 
   s.resources = [
-                "APBaby/**/*.xcassets",
-                "APBaby/**/*.storyboard",
-                "APBaby/**/*.xib",
-                "APBaby/**/*.png"]
+                "APBaby/Resource/*.xcassets",
+                "APBaby/Resource/*.storyboard",
+                "APBaby/Resource/*.xib",
+                "APBaby/Resource/*.png"]
 
   s.xcconfig =  { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
                   'ENABLE_BITCODE' => 'YES',
@@ -33,9 +33,6 @@ Pod::Spec.new do |s|
               }
 
 
-  s.dependency 'ApplicasterSDK'
-  s.dependency 'ZappPlayerPlugins/Basic'
-  s.dependency 'ZappLoginPluginsSDK'
   s.dependency 'ZappPlugins'
-  
+
 end
