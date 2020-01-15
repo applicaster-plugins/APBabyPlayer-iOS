@@ -8,7 +8,7 @@
   },
   "author_name": "Alex Zchut",
   "author_email": "a.zchut@applicaster.com",
-  "manifest_version": "5.8.0",
+  "manifest_version": "6.0.0",
   "name": "APBabyPlayer",
   "description": "Applicaster Baby Plugable player",
   "identifier": "APBabyPlayer-ios",
@@ -29,7 +29,7 @@
     "56a8a34e646562000b010000"
   ],
   "dependency_name": "APBabyPlayer",
-  "dependency_version": "0.1.0",
+  "dependency_version": "6.0.0",
   "custom_configuration_fields": [
     {
       "type": "dropdown",
